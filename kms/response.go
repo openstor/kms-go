@@ -1,6 +1,6 @@
-// Copyright 2023 - MinIO, Inc. All rights reserved.
-// Use of this source code is governed by the AGPLv3
-// license that can be found in the LICENSE file.
+// SPDX-FileCopyrightText: 2025 openstor contributors
+// SPDX-FileCopyrightText: 2015-2025 MinIO, Inc.
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 package kms
 
@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"aead.dev/mtls"
-	"github.com/minio/kms-go/kms/cmds"
-	"github.com/minio/kms-go/kms/internal/headers"
-	"github.com/minio/kms-go/kms/internal/pool"
-	pb "github.com/minio/kms-go/kms/protobuf"
+	"github.com/openstor/kms-go/kms/cmds"
+	"github.com/openstor/kms-go/kms/internal/headers"
+	"github.com/openstor/kms-go/kms/internal/pool"
+	pb "github.com/openstor/kms-go/kms/protobuf"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 )

@@ -1,4 +1,4 @@
-module github.com/minio/kms-go/kms
+module github.com/openstor/kms-go/kms
 
 go 1.24
 

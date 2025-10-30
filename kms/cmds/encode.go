@@ -7,7 +7,7 @@ package cmds
 import (
 	"encoding/binary"
 
-	pb "github.com/minio/kms-go/kms/protobuf"
+	pb "github.com/openstor/kms-go/kms/protobuf"
 	"google.golang.org/protobuf/proto"
 )
 

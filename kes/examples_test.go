@@ -14,7 +14,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/minio/kms-go/kes"
+	"github.com/openstor/kms-go/kes"
 )
 
 func ExampleNewClient() {
